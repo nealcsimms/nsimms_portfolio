@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Neal Christopher Simms</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="css/master.css">
+	</head>
+	<body ng-app="simmsPortfolio">
+		<div id="nav">
+		<h3><a href="#/about">Neal Christopher Simms</a></h3>
+		<h5>Web Developer, Artist, Musician</h5> 
+		<ul id="navlist">
+			<li><a href="#/devprojects">Dev Projects</a></li>
+			<li><a href="#/objects">Objects</a></li>
+			<li><a href="#/music">Music</a></li>
+			<li><a href="#/video">Video</a></li>
+			<li><a href="#/studio">Home Studio</a></li>	
+		</ul>
+		</div>
+		<div id="view" ng-view="" ng-controller="portController">
+		</div>
+	</body>
+</html>
