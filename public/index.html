@@ -1,18 +1,47 @@
 <!doctype html>
 <html ng-app="simmsPortfolio">
+	
 	<head>
 		<title>Neal Christopher Simms</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" rel="stylesheet" href="css/master.css">
 		<link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans|Merriweather+Sans|Nunito|Patua+One" rel="stylesheet">
 	</head>
+	
 	<body>
+		
+		
 		<div id="title">
 			<h1><a href="#/home">Neal Christopher Simms</a></h1>
 			<h5>Web Developer / Artist / Musician</h5>
-		</div> 
+		</div>
+		
+		
+		<div id="dropdown">
+			<button class="button" ng-click="menu.toggle= !menu.toggle">Menu</button>
+			<div ng-show="menu.toggle" class="dropcontent">
+				<a href="#/about">About</a>
+				<a href="#/devprojects">Web Development</a>
+				<a href="#/music">Music</a>
+				<a href="#/objects">Objects</a>
+				<a href="#/videos">Videos</a>
+				<a href="#/studio">Studio</a>
+			</div>
+		</div>
+		
 		<div id="view" ng-view="" ng-controller="portController">
 		</div>
+		
+		
+		<div id="footer">
+			<ul>
+				<li><a></a></li>
+				<li><a></a></li>
+				<li><a></a></li>
+				<li><a></a></li>
+			</ul>	
+		</div>
+		
 		<script src="lib/angular.min.js"></script>
         <script src="lib/angular-route.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>

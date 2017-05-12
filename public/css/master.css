@@ -11,7 +11,6 @@
 }
 
 #title {
-	
 	margin: auto;
 	width: 33%;
 	border: solid grey 6px;
@@ -35,8 +34,27 @@ a {
 	color: black;
 }
 
+/*dropdown menu styles*/
+
+
 /*Styles within the changing view*/
 #view {
-	display:block;
-	border:solid black 1px;
+	margin: auto;
+	display: block;
+}
+
+.viewheading {
+	margin-top: 30px;
+	font-family: "Josefin Sans";
+	text-align: center;
+}
+
+/*Static Footer Styles*/
+#footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 40px;
+   width: 100%;
+   background: grey;
 }
