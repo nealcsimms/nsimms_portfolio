@@ -1,23 +1,20 @@
 <!doctype html>
-<html>
+<html ng-app="simmsPortfolio">
 	<head>
 		<title>Neal Christopher Simms</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" rel="stylesheet" href="css/master.css">
+		<link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans|Merriweather+Sans|Nunito|Patua+One" rel="stylesheet">
 	</head>
-	<body ng-app="simmsPortfolio">
-		<div id="nav">
-		<h3><a href="#/about">Neal Christopher Simms</a></h3>
-		<h5>Web Developer, Artist, Musician</h5> 
-		<ul id="navlist">
-			<li><a href="#/devprojects">Dev Projects</a></li>
-			<li><a href="#/objects">Objects</a></li>
-			<li><a href="#/music">Music</a></li>
-			<li><a href="#/video">Video</a></li>
-			<li><a href="#/studio">Home Studio</a></li>	
-		</ul>
-		</div>
+	<body>
+		<div id="title">
+			<h1><a href="#/home">Neal Christopher Simms</a></h1>
+			<h5>Web Developer / Artist / Musician</h5>
+		</div> 
 		<div id="view" ng-view="" ng-controller="portController">
 		</div>
+		<script src="lib/angular.min.js"></script>
+        <script src="lib/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>

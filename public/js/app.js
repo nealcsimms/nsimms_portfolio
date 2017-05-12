@@ -4,7 +4,11 @@ var app = angular.module("simmsPortfolio", ["ngRoute"]);
 // Creates the route, add new location routes here
 app.config(function($routeProvider) {
 
+    $routeProvider.when("/home", {
+        templateUrl: "./views/home.html",
+        controller: 'portController'
 
+    });
 
      $routeProvider.when("/about", {
         templateUrl: "./views/about.html",
@@ -13,7 +17,7 @@ app.config(function($routeProvider) {
     });
 
      $routeProvider.when("/devprojects", {
-        templateUrl: "./views/about.html",
+        templateUrl: "./views/devprojects.html",
         controller: 'portController'
 
     });
@@ -30,11 +34,12 @@ app.config(function($routeProvider) {
     });
 
       $routeProvider.when("/music",{
-        templateUrl: "./views/photos.html",
+        templateUrl: "./views/music.html",
         controller: 'artController'
-    
+    })
+
      $routeProvider.when("/studio",{
-        templateUrl: "./views/photos.html",
+        templateUrl: "./views/studio.html",
         controller: 'portController'
     });
 
@@ -42,38 +47,15 @@ app.config(function($routeProvider) {
 
 
      $routeProvider.otherwise({
-        templateUrl: "./views/about.html",
+        templateUrl: "./views/home.html",
         controller: 'portController'
 
     });
 });
 
-app.controller('portContoller', function($scope){
+app.controller('portController', function($scope){
 
-$scope.devprojectImages = [
-
-{
-    title: ,
-    url: , 
-    caption: , 
-},
-{
-    title: ,
-    url: , 
-    caption: , 
-},
-{
-    title: ,
-    url: , 
-    caption: , 
-},
-{
-    title: ,
-    url: , 
-    caption: , 
-},
-
-];
+$scope.devprojectImages = [];
 
 $scope.objectImages = [];
 

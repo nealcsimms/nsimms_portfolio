@@ -1,0 +1,8 @@
+<!--Picture carousel here with text overlaid on pictures describing different things I do-->
+
+<!--Gallery of images/links corresponding to each section of site, on hover will be masked with grey translucent backround and white text-->
+<div class="galleryobject" ng-repeat="image in homeImages">
+	<h3 class="title">{{ homeImages.title }}</h3>
+	<img class="galleryimage" ng-source="">
+	<p class="caption">{{ homeImages.caption }}</p>
+</div>

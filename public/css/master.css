@@ -1,35 +1,42 @@
-body {
-	margin: 0;
-	overflow-x: hidden;
-	font-family: monospace;
-}
 
-/*nav bar styles*/
-#nav {
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: white;
-    height: 100%;
-    position: fixed; 
-}
 
-#nav h3{
+/*header styles*/
+
+#nav h1 {
 	text-align: center;
 }
 
-#nav ul {
-	list-style-type: none;
+#nav h5 {
+	text-align: center;
 }
 
-#nav a {
+#title {
+	
+	margin: auto;
+	width: 33%;
+	border: solid grey 6px;
+	border-radius: 4px;
+}
+
+#title h1 {
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: "Patua One";
+}
+
+#title h5 {
+	margin-top: 0px;
+	text-align: center;
+	font-family: "Josefin Sans"
+}
+
+a {
 	text-decoration: none;
 	color: black;
 }
 
 /*Styles within the changing view*/
 #view {
-	display:inline;
-	position:relative;
+	display:block;
 	border:solid black 1px;
 }
