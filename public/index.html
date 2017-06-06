@@ -20,12 +20,14 @@
 		<div id="dropdown">
 			<button class="button" ng-click="menu.toggle= !menu.toggle">Menu</button>
 			<div ng-show="menu.toggle" class="dropcontent">
-				<a href="#/about">About</a>
-				<a href="#/devprojects">Web Development</a>
-				<a href="#/music">Music</a>
-				<a href="#/objects">Objects</a>
-				<a href="#/videos">Videos</a>
-				<a href="#/studio">Studio</a>
+				<ul id="dropdown-nav">
+					<li><a class="navlinks" href="#/about">About</a></li>
+					<li><a class="navlinks" href="#/devprojects">Web Development</a></li>
+					<li><a class="navlinks" href="#/music">Music</a></li>
+					<li><a class="navlinks" href="#/objects">Objects</a></li>
+					<li><a class="navlinks" href="#/video">Videos</a></li>
+					<li><a class="navlinks" href="#/studio">Studio</a></li>
+				</ul>
 			</div>
 		</div>
 		

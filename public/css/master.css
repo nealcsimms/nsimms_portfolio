@@ -35,7 +35,40 @@ a {
 }
 
 /*dropdown menu styles*/
+#dropdown {
+	margin: auto;
+	display: block;
+}
 
+button {
+	display: block;
+	padding: 15px;
+	margin: auto;
+	border: none;
+	background: white;
+	color: black;
+	font-family: "Josefin Sans";
+}
+
+#dropcontent {
+	display: block;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+}
+
+button:focus { 
+	outline:0 !important; 
+}
+
+#dropdown-nav {
+	list-style-type: none;
+	font-family: "Josefin Sans";
+	padding: 0;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
 
 /*Styles within the changing view*/
 #view {
@@ -45,7 +78,7 @@ a {
 
 .viewheading {
 	margin-top: 30px;
-	font-family: "Josefin Sans";
+	font-family: "Patua One";
 	text-align: center;
 }
 
@@ -56,5 +89,5 @@ a {
    bottom: 0px;
    height: 40px;
    width: 100%;
-   background: grey;
+   background: white;
 }

@@ -35,7 +35,7 @@ app.config(function($routeProvider) {
 
       $routeProvider.when("/music",{
         templateUrl: "./views/music.html",
-        controller: 'artController'
+        controller: 'portController'
     })
 
      $routeProvider.when("/studio",{
@@ -55,7 +55,27 @@ app.config(function($routeProvider) {
 
 app.controller('portController', function($scope){
 
-$scope.devprojectImages = [];
+$scope.devprojectImages = [
+{
+  title: "currentSEE",
+  imageUrl: "media/images/currentsee.png",
+  link: "",
+  caption: ""
+},
+{
+  title: "Pizza Conglomo",
+  imageUrl: "media/images/pizzaconglomo.png",
+  link: "",
+  caption: ""
+},
+{
+  title: "Woodward Avenue Cinema",
+  imageUrl: "media/images/woodwardcinema.png",
+  link: "",
+  caption: ""
+}
+
+];
 
 $scope.objectImages = [];
 
