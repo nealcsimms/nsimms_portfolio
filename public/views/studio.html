@@ -2,7 +2,7 @@
 
 <!--A gallery of images of my space and myself "working" or in my working environment at home-->
 <div class="galleryobject" ng-repeat="image in studioImages">
-	<h3 class="title">{{ studioImages.title }}</h3>
-	<img class="galleryimage" ng-source="">
-	<p class="caption">{{ studioImages.caption }}</p>
+	<img class="galleryimage" ng-src="{{ image.imageUrl }}"/>
+	<h3 class="title">{{ image.title }}</h3>
+	<p class="caption">{{ image.caption }}</p>
 </div>

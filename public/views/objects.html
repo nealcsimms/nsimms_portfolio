@@ -2,7 +2,7 @@
 
 <!--Gallery of art materials made for bands/concerts, on hover will be masked with grey translucent backround and white text-->
 <div class="galleryobject" ng-repeat="image in objectImages">
-	<h3 class="title">{{ objectImages.title }}</h3>
-	<img class="galleryimage" ng-source="">
-	<p class="caption">{{ objectImages.caption }}</p>
+	<img class="galleryimage" ng-src="{{ image.imageUrl }}"/>
+	<h3 class="title">{{ image.title }}</h3>
+	<p class="caption">{{ image.caption }}</p>
 </div>

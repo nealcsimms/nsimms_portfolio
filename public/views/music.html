@@ -2,7 +2,7 @@
 
 <!--Gallery of images/links corresponding to each music project, on hover will be masked with grey translucent backround and white text-->
 <div class="galleryobject" ng-repeat="image in musicImages">
-	<h3 class="title">{{ musicImages.title }}</h3>
-	<img class="galleryimage" ng-source="">
-	<p class="caption">{{ musicImages.caption }}</p>
+	<img class="galleryimage" ng-src="{{ image.imageUrl }}"/>
+	<h3 class="title">{{ image.title }}</h3>
+	<p class="caption">{{ image.caption }}</p>
 </div>

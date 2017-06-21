@@ -36,10 +36,15 @@ app.config(function($routeProvider) {
       $routeProvider.when("/music",{
         templateUrl: "./views/music.html",
         controller: 'portController'
-    })
+    });
 
      $routeProvider.when("/studio",{
         templateUrl: "./views/studio.html",
+        controller: 'portController'
+    });
+
+     $routeProvider.when("/contact",{
+        templateUrl: "./views/contact.html",
         controller: 'portController'
     });
 

@@ -70,7 +70,7 @@ button:focus {
 	text-align: center;
 }
 
-/*Styles within the changing view*/
+/*styles within the changing view*/
 #view {
 	margin: auto;
 	display: block;
@@ -82,7 +82,32 @@ button:focus {
 	text-align: center;
 }
 
-/*Static Footer Styles*/
+/*styles for the gallery objects in each view*/
+.galleryobject {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	width : 75%;
+}
+
+.title {
+	text-align: center;
+	font-family: "Josefin Sans";
+}
+
+.galleryimage {
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+
+.caption {
+	text-align: center;
+	font-family: "Josefin Sans";
+}
+
+/*static footer styles*/
 #footer {
    position: fixed;
    left: 0px;
