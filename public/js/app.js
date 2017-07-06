@@ -43,10 +43,6 @@ app.config(function($routeProvider) {
         controller: 'portController'
     });
 
-     $routeProvider.when("/contact",{
-        templateUrl: "./views/contact.html",
-        controller: 'portController'
-    });
 
     //Main Page View
 

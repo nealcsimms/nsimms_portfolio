@@ -2,8 +2,8 @@
 
 - A home page, with a row of images 
 
-- A “Contact” page, linked to from the home page 
-	o Your contact page should include an HTML5 form for contacting you 
+- A “Contact” page, linked to from the home page ***
+	o Your contact page should include an HTML5 form for contacting you ***
 
 - Somewhere on the site:
 	o A block quote 
@@ -11,7 +11,7 @@
 	o At least 1 external link 
 	o At least 3 different CSS selectors. ***
 
-- Add a background image or color and alter its opacity. 
+- Add a background image or color and alter its opacity. *** 
 
 - Import an external font and use it to change your name in the header. ***
 

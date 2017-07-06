@@ -15,6 +15,9 @@
 	width: 33%;
 	border: solid grey 6px;
 	border-radius: 4px;
+	/*changed the background color opacity with the rgba(alpha) below,
+	 this allows for the text to remain opaque*/
+	background-color: rgba(66, 134, 244, 0.25);
 }
 
 #title h1 {
@@ -105,6 +108,13 @@ button:focus {
 .caption {
 	text-align: center;
 	font-family: "Josefin Sans";
+}
+
+/*contact styles*/
+.contactwrapper, .scriptform{
+  width:202px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 /*static footer styles*/
