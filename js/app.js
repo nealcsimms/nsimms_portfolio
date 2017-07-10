@@ -59,19 +59,19 @@ app.controller('portController', function($scope){
 $scope.devprojectImages = [
 {
   title: "currentSEE",
-  imageUrl: "media/images/currentsee.png",
+  imageUrl: "../media/images/currentsee.png",
   link: "",
   caption: ""
 },
 {
   title: "Pizza Conglomo",
-  imageUrl: "media/images/pizzaconglomo.png",
+  imageUrl: "../media/images/pizzaconglomo.png",
   link: "",
   caption: ""
 },
 {
   title: "Woodward Avenue Cinema",
-  imageUrl: "media/images/woodwardcinema.png",
+  imageUrl: "../media/images/woodwardcinema.png",
   link: "",
   caption: ""
 }
